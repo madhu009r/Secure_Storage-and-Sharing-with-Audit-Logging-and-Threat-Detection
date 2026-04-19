@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae95f6d0-c09c-4a40-a983-99553dd5b401" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/controller/AuditLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/controller/ThreatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/dto/ActivityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/dto/DashboardSummaryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/dto/FileListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/dto/ShareResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/dto/ShareTokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/security/SecureTokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/security/TokenHashUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/controller/ThreatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/service/DashboardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/build/contracts/AuditLogger.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/build/contracts/AuditLogger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/controller/AuditVerificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/controller/AuditVerificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/repository/AuditLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/repository/AuditLogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/service/AuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/blockchain/service/AuditService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/controller/PublicShareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/controller/PublicShareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/controller/ShareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/controller/ShareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/model/FileShareToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/model/FileShareToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/model/StoredFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/model/StoredFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/repository/FileShareTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/repository/FileShareTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/repository/StoredFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/repository/StoredFileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/SecurityAlertService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/SecurityAlertService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/SecurityEventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/SecurityEventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/entity/SecurityAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/entity/SecurityAlert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/repository/SecurityAlertRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/repository/SecurityAlertRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/service/ShareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/service/ShareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/demo/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Backend" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;madhu009r&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Project-Cybervault/Backend.git&quot;,
+    &quot;accountId&quot;: &quot;cf62652c-2094-41c1-9773-bff6dbc5f542&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36kMqxajrk7SARzD7rOAAFRBrOd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/backend&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/1Secure_Storage and Sharing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/1Secure_Storage and Sharing/Backend/demo/config/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\1Secure_Storage and Sharing\Backend\demo\src\main\java\com\example\demo\blockchain\contracts" />
+      <recent name="C:\1Secure_Storage and Sharing\Backend\demo\src\main\java\com\example\demo\blockchain\contract" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae95f6d0-c09c-4a40-a983-99553dd5b401" name="Changes" comment="" />
+      <created>1765546310577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765546310577</updated>
+      <workItem from="1765546312017" duration="12916000" />
+      <workItem from="1765602398096" duration="1834000" />
+      <workItem from="1768991310263" duration="56000" />
+      <workItem from="1769588626545" duration="3069000" />
+      <workItem from="1769596164610" duration="5366000" />
+      <workItem from="1769601771925" duration="9833000" />
+      <workItem from="1770635665580" duration="12380000" />
+      <workItem from="1770655600144" duration="4171000" />
+      <workItem from="1771337564513" duration="3544000" />
+      <workItem from="1771405683980" duration="4450000" />
+      <workItem from="1771432224802" duration="1738000" />
+      <workItem from="1771580108336" duration="1983000" />
+      <workItem from="1771654353921" duration="1454000" />
+      <workItem from="1772093127035" duration="3548000" />
+      <workItem from="1772120812474" duration="3568000" />
+      <workItem from="1772172179214" duration="1264000" />
+      <workItem from="1772432420573" duration="9690000" />
+      <workItem from="1772519502206" duration="17786000" />
+      <workItem from="1772598715237" duration="9225000" />
+      <workItem from="1773751650695" duration="1767000" />
+      <workItem from="1774323291171" duration="14869000" />
+      <workItem from="1774506258952" duration="573000" />
+      <workItem from="1774849774715" duration="7942000" />
+      <workItem from="1774886816143" duration="2427000" />
+      <workItem from="1774938592392" duration="4779000" />
+      <workItem from="1774962007661" duration="10929000" />
+      <workItem from="1775017896981" duration="1006000" />
+      <workItem from="1775047158335" duration="12678000" />
+      <workItem from="1775104917727" duration="1281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Backend/demo/config/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Backend/demo/src/main/java/com/example/demo/securityevent/SecurityEventService.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
