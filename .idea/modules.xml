@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/1Secure_Storage and Sharing.iml" filepath="$PROJECT_DIR$/.idea/1Secure_Storage and Sharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/demo/config/config.iml" filepath="$PROJECT_DIR$/Backend/demo/config/config.iml" />
+    </modules>
+  </component>
+</project>

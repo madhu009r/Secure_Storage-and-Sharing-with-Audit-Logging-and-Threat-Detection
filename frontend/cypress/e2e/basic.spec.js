@@ -1,0 +1,1 @@
+describe('Auth flow', () => { it('can register and login', () => { cy.visit('http://localhost:3000/register'); cy.get('input').first().type('e2euser'); cy.get('input').eq(1).type('Password123!'); cy.get('input').eq(2).type('Password123!'); cy.contains('Register').click(); cy.url().should('include', '/login'); }); });

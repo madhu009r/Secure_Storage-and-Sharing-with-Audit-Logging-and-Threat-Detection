@@ -1,0 +1,1 @@
+import React from 'react'; export default function Admin(){ return (<div className='p-4'><h2 className='text-2xl'>Admin Dashboard</h2><p>User management, system logs, replay suspicious events - implement admin endpoints on backend.</p></div>); }

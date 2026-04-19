@@ -1,0 +1,1 @@
+import { sha256 } from 'js-sha256'; export async function hashFile(file){ const ab = await file.arrayBuffer(); const hash = sha256.create(); hash.update(new Uint8Array(ab)); return hash.hex(); }
